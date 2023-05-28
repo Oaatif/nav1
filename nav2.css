@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font:  sans-serif;
+}
+.yo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./nav2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    color: rgba(154, 225, 136, 0.886);
+    font-size: 28px;
+    cursor: pointer;
+}
+span{
+    color: rgba(1, 46, 1, 0.969);
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    color: rgba(182, 227, 171, 0.886);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgba(1, 46, 1, 0.969);;
+
+}
+button{
+    border: none;
+    background: green;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: rgba(182, 227, 171, 0.886);
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    background-color: rgba(1, 46, 1, 0.969);
+    transition: all;
+    cursor: pointer;
+}
